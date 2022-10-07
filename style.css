@@ -17,7 +17,7 @@ a {
 .header {
   background: #fff5f2;
   color: #000;
-  height: 650px;
+  height: 750px;
   padding: 30px 30px 30px;
 }
 
@@ -26,27 +26,6 @@ a {
   color: #fe746e;
   }
 
-div.about-desc {
-      float: right;
-      width: 50%;
-    }
-
-div.about-img{
-      float: left;
-      width: 50%;
-    }
-
-div.about-desc::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-div.about-img::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
 .assignment {
   font-size: 12px;
