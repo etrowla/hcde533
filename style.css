@@ -36,6 +36,12 @@ div.about-img{
       width: 50%;
     }
 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .assignment {
   font-size: 12px;
   line-height: 24px;
