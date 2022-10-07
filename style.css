@@ -36,7 +36,13 @@ div.about-img{
       width: 50%;
     }
 
-.clearfix::after {
+div.about-desc::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+div.about-img::after {
   content: "";
   clear: both;
   display: table;
