@@ -26,6 +26,16 @@ a {
   color: #fe746e;
   }
 
+div.about-desc {
+      float: left;
+      width: 50%;
+    }
+
+div.about-img{
+      float: right;
+      width: 50%;
+    }
+
 .assignment {
   font-size: 12px;
   line-height: 24px;
