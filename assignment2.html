@@ -14,12 +14,78 @@
         <div class="header">
             <h1>Emily Rowland's Assignment 2!</h1>
             <p>
-            <img src="hexagon.png" width=400></a>
+            <img src="assignment2files/finalbuild.png" width=400></a>
             </p>
             <p>
             Here is all the documentation for assignment 2!
+            </br> </br>
+            All source files and images can be found here:
+            </br> </br>
+                <a href="https://github.com/etrowla/hcde533/tree/master/assignment1files">Emily's 533 Github Assignment 1 Files</a>
             </p>
         </div>
-        
+                <div class="documentation">
+            <p>
+                Building off of assignment 1, I wanted to recreate my hexagons with Grasshopper. 
+                </br> </br>
+                Utilizing our in class example, I modified the Grasshopper setup to use a hexagon with similar dimensions to what was used in my assignment 1. Shoutout to Jessica who helped debug my 'Trim with Region' vs 'Trim with Regions' issue in class. Note, the cambering in the slots is not present in this design for simplicity.
+                </br> </br>
+                <img src="assignment2files/hexgh.png" width=750></a>
+                </br> </br>
+                Then, I thought it might be interesting to play with more polygons and how they could all fit together, sort of like an organic Lego set. So, I set off to try making octagons and decagons as well. 
+                </br> </br>
+                Yet, when I tried to make an octagon, I noticed it cut the slots now at the points of the shape, so when combined with the hexagon it would not be a flat fit as I wanted. I needed to learn how to rotate the shape to cut on the flat side. 
+                </br> </br>
+                <img src="assignment2files/cornercut.png" width=500></a>
+                </br> </br>
+                I found a useful example for an architecture class on YouTube to use an example. <a href="https://www.youtube.com/watch?v=QMI-sy0Dksg">YouTube Link</a>. It rotates the shape relative to itself using the centroid of the shape as the plane, while being able to vary the degree of rotation using a number slider. For both the octagon and decagon, I was able to rotate the shape to ensure the cut of the slot was on the flat side 
+                </br> </br>
+                <img src="assignment2files/octgh.png" width=750></a>
+                </br> </br>
+                <img src="assignment2files/decgh.png" width=750></a>
+                </br> </br>
+                <a href="assignment2files/assignment2.gh">Grasshopper file</a>
+                </br> </br>
+            </p>
+            <p>
+                I modeled using a similar slot thickness as assignment 1 as I still had some of the same cardboard leftover to use again. My cardboard was anywhere from 4.7 to 5 mm thick, as there was variance throughout the piece. The slot was just a tad bigger in this design as I did not add the cambering like in assignment 1. 
+                </br> </br>
+                <img src="assignment2files/render.png" width=500></a>
+                </br> </br>
+                <a href="assignment2files/Assignment2.3dm">Rhino File</a>
+                </br> </br>
+                Luckily, the Mill machine was back up and running, so I utilized the same initial settings for my test cuts. I started at speed: 25, power: 50, frequency: 50. I noticed it didn't 'fall out' as easily as last time. So, I changed my settings to speed: 20, power: 50, frequency: 50, which worked better.
+                </br> </br>
+                <img src="assignment2files/testcuts.png" width=500></a>
+                </br> </br>
+                I then tested that assembly worked with this new polygon design and it did! <a href="assignment2files/Assignment2.AI">Here's the original illustrator file!</a>
+                </br> </br>
+                <img src="assignment2files/testassembly.png" width=500></a>
+                </br> </br>
+                I now created 30 parts, I decided on 10 of each polygon. <a href="assignment2files/Assignment2large.ai">Here's the larger illustrator file!</a>
+                </br> </br>
+                After cutting of the parts, I assembled all the polygons together into a question mark shape. But, you could choose any shape you like.
+                </br> </br>
+                <img src="assignment2files/finalassembly.png" width=500></a>
+                </br> </br>
+                It also still holds up to shaking!
+                </br> </br>
+                <a href="assignment2files/shake2.mov">Shake video</a>
+            </p>
+            <p>
+                 </br> </br>
+                 Acknowledgements:
+                  </br> </br>
+                  Peer teachers: Jessica for debugging Trim with Regions with me in class
+                  </br> </br>
+                  Moral support: Jessica and Clark!
+                  </br> </br>
+                  Teaching support: the Mill staff and <a href="https://www.youtube.com/watch?v=QMI-sy0Dksg">YouTube</a>
+                  </br> </br>
+                  Again the link to all documents if not wanting to scroll up :P : 
+                  <a href="https://github.com/etrowla/hcde533/tree/master/assignment1files">Emily's 533 Github Assignment 1 Files</a>
+                  </br> </br>
+            </p>
+        </div>
     </body>
 </html>
