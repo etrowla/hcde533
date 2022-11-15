@@ -1,0 +1,111 @@
+%!PS-Adobe-3.0
+%%Creator: Rhinoceros
+%%Title: (lampbackup.)
+%%BoundingBox: 66 -64 198 64
+%%DocumentProcessColors: Black
+%%DocumentNeededResources: procset Adobe_packedarray 2.0 0
+%%+ procset Adobe_cmykcolor 1.1 0
+%%+ procset Adobe_cshow 1.1 0
+%%+ procset Adobe_customcolor 1.0 0
+%%+ procset Adobe_typography_AI3 1.0 0
+%%+ procset Adobe_IllustratorA_AI3 1.0 0
+%AI3_ColorUsage: Color
+%AI3_TemplateBox: 288 384 288 384
+%AI3_TileBox: 0 0 576 768
+%AI3_DocumentPreview: None
+%%Template:
+%%PageOrigin:0 0
+%%EndComments
+%%BeginProlog
+%%IncludeResource: procset Adobe_packedarray 2.0 0
+Adobe_packedarray /initialize get exec
+%%IncludeResource: procset Adobe_cmykcolor 1.1 0
+%%IncludeResource: procset Adobe_cshow 1.1 0
+%%IncludeResource: procset Adobe_customcolor 1.0 0
+%%IncludeResource: procset Adobe_typography_AI3 1.0 0
+%%IncludeResource: procset Adobe_IllustratorA_AI3 1.0 0
+%%EndProlog
+%%BeginSetup
+Adobe_cmykcolor /initialize get exec
+Adobe_cshow /initialize get exec
+Adobe_customcolor /initialize get exec
+Adobe_typography_AI3 /initialize get exec
+Adobe_IllustratorA_AI3 /initialize get exec
+%%EndSetup
+%AI5_BeginLayer
+1 1 1 1 0 0 -1 0 0 0 Lb
+(Default) Ln
+0 A
+0 R
+0.0000 0.0000 0.0000 XA
+0.0000 0.0000 0.0000 Xa
+0 i 1 J 1 j 1.0000 w 4 M []0 d
+0 D
+129.2598 63.6559 m
+109.3272 62.4133 91.1274 51.9056 80.0849 35.2648 C
+S
+0.0000 0.0000 0.0000 XA
+0.0000 0.0000 0.0000 Xa
+0 i 1 J 1 j 1.0000 w 4 M []0 d
+0 D
+197.0079 0.0000 m
+197.0079 9.8517 194.7257 19.5694 190.3403 28.3911 c
+187.9211 26.9944 185.5019 25.5977 183.0827 24.2010 c
+181.7598 26.4922 180.4370 28.7834 179.1142 31.0746 c
+181.5334 32.4713 183.9526 33.8681 186.3718 35.2648 c
+175.3293 51.9056 157.1295 62.4133 137.1969 63.6559 c
+137.1969 60.8625 137.1969 58.0690 137.1969 55.2756 c
+134.5512 55.2756 131.9055 55.2756 129.2598 55.2756 c
+129.2598 58.0690 129.2598 60.8625 129.2598 63.6559 c
+109.3272 62.4133 91.1274 51.9056 80.0849 35.2648 c
+82.5041 33.8681 84.9233 32.4713 87.3425 31.0746 c
+86.0197 28.7834 84.6969 26.4922 83.3740 24.2010 c
+80.9548 25.5977 78.5356 26.9944 76.1164 28.3911 c
+67.2263 10.5076 67.2263 -10.5076 76.1164 -28.3911 c
+78.5356 -26.9944 80.9548 -25.5977 83.3740 -24.2010 c
+84.6969 -26.4922 86.0197 -28.7834 87.3425 -31.0746 c
+84.9233 -32.4713 82.5041 -33.8681 80.0849 -35.2648 c
+91.1274 -51.9056 109.3272 -62.4133 129.2598 -63.6559 c
+129.2598 -60.8625 129.2598 -58.0690 129.2598 -55.2756 c
+131.9055 -55.2756 134.5512 -55.2756 137.1969 -55.2756 c
+137.1969 -58.0690 137.1969 -60.8625 137.1969 -63.6559 c
+157.1295 -62.4133 175.3293 -51.9056 186.3718 -35.2648 c
+183.9526 -33.8681 181.5334 -32.4713 179.1142 -31.0746 c
+180.4370 -28.7834 181.7598 -26.4922 183.0827 -24.2010 c
+185.5019 -25.5977 187.9211 -26.9944 190.3403 -28.3911 c
+194.7257 -19.5694 197.0079 -9.8517 197.0079 -0.0000 C
+s
+0.0000 0.0000 0.0000 XA
+0.0000 0.0000 0.0000 Xa
+0 i 1 J 1 j 1.0000 w 4 M []0 d
+0 D
+185.6693 0.0000 m
+185.6693 6.6131 184.4217 13.1540 181.9875 19.3028 c
+179.3502 25.9648 175.3767 32.0141 170.3104 37.0807 c
+165.2438 42.1474 159.1943 46.1212 152.5320 48.7588 c
+146.3830 51.1932 139.8418 52.4409 133.2283 52.4409 c
+126.6152 52.4409 120.0744 51.1933 113.9256 48.7592 c
+107.2636 46.1218 101.2142 42.1484 96.1477 37.0820 c
+91.0809 32.0155 87.1071 25.9659 84.4695 19.3037 c
+82.0351 13.1546 80.7874 6.6134 80.7874 0.0000 c
+80.7874 -6.6131 82.0350 -13.1540 84.4692 -19.3028 c
+87.1065 -25.9648 91.0800 -32.0141 96.1463 -37.0807 c
+101.2129 -42.1474 107.2624 -46.1212 113.9247 -48.7588 c
+120.0737 -51.1932 126.6149 -52.4409 133.2283 -52.4409 c
+139.8415 -52.4409 146.3823 -51.1933 152.5311 -48.7592 c
+159.1931 -46.1218 165.2425 -42.1484 170.3090 -37.0820 c
+175.3758 -32.0155 179.3496 -25.9659 181.9872 -19.3037 c
+184.4216 -13.1546 185.6693 -6.6134 185.6693 0.0000 C
+s
+LB
+%AI5_EndLayer--
+%%PageTrailer
+gsave annotatepage grestore showpage
+%%Trailer
+Adobe_IllustratorA_AI3 /terminate get exec
+Adobe_typography_AI3 /terminate get exec
+Adobe_customcolor /terminate get exec
+Adobe_cshow /terminate get exec
+Adobe_cmykcolor /terminate get exec
+Adobe_packedarray /terminate get exec
+%%EOF
