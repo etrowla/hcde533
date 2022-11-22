@@ -58,7 +58,7 @@ a {
 }
 
 .documentation {
-  width:  800px;
+  width:  1000px;
   padding: 30px 30px 30px;
 }
 
@@ -83,3 +83,18 @@ a {
   text-decoration: none;
 }
 
+table {
+  border: 5px solid black;
+}
+
+th {
+  border-bottom: 2px solid black;
+}
+
+td {
+  border-bottom: 2px solid black;
+}
+
+th, td {
+  padding: 15px;
+}
