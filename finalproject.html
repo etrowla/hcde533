@@ -1,0 +1,309 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+
+        <title>Emily Rowlands's HCDE 533 Digital Fabrication Page!</title> 
+
+        <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+
+    </head> 
+    <body> 
+
+        <div class="header">
+            <h1>Emily Rowland's Final Project!</h1>
+            <p>
+            <img src="finalproject/final/final.png" width=600></a>
+            </p>
+            <p>
+            Here is all the documentation for the final project!
+            </br> </br>
+            Read for details on the Ultimate Pokemon Starter Set!
+            </br> </br>
+            All source files and images can be found here:
+                <a href="https://github.com/etrowla/hcde533/tree/master/finalproposalfiles">Emily's 533 Github Final Proposal Files</a>
+            </p>
+        </div>
+                <div class="documentation">
+            <p>
+            <h2>A recap on the concept:</h2>
+            [see also <a href="finalproposal.html">final project proposal</a>]
+            </br></br>
+            <img src="finalproposalfiles/pokesketch.png" width=600></a>
+            </br> </br>
+            Ultimate Pokemon Starter Set: A starter set for the Pokemon enthusiast with a bit of flair! Great for office, bedroom, or game room displays!
+            </br> </br>
+            Have all that you need to get a taste of the Pokemon world with the starter Pokemon (custom modified), a Pokeball (a representative object of your Pokemon’s home), and Pokemon cards to understand the traits and skills of your starter Pokemon.
+            </br> </br>
+            Includes 3 parts:
+            </br>
+            <dl>
+                <dt>1. Pokemon:</dt>
+                    <dd>Techniques: Rhino - mesh editing (1), 3D printing (2)</dd>
+                    <dd>Starter Pokemon STLs are custom modified with additional objects</dd>
+                <dt>2. Pokeball:</dt>
+                    <dd>Techniques: Mold design and casting (3), Rhino - direct modeling, 3D printing, Grasshopper (4)</dd>
+                    <dd>Casted Pokeball is painted and has a 3D printed stand</dd>
+                <dt>3. Pokemon cards (stretch goal):</dt>
+                    <dd>Techniques: Laser cutting (5), Stock parts (6)</dd>
+                    <dd>Decorative clear acrylic cards with stand are illuminated with LEDs</dd>
+            </dl>
+
+            <h2>Final result:</h2>
+            I was able to achieve my stretch goal of the Pokemon cards and here is the final result!
+             </br> </br>
+             <img src="finalproject/final/final.png" width=500></a>
+             </br> </br>
+            This includes the 4 Pokemon, 1 Pokeball and stand, and 4 Pokemon card lamps.
+            </br> </br>
+            <h2>Overview of Steps:</h2>
+                <h3>Pokemon:</h3>
+                <img src="finalproject/pokemon/pokemonfront.png" width=500></a>
+                </br> </br>
+                <img src="finalproject/pokemon/pokemonback.png" width=500></a>
+                </br> </br>
+                <h4>Methods:</h4>
+                    <ul>
+                    <li>Rhino mesh editing</li>
+                    <li>3D printing</li>
+                    </ul>
+                <h4>BOM:</h4>
+                    <ul>
+                    <li>Pokemon STLs: <a href="https://www.thingiverse.com/thing:327753">Bulbasaur</a>, <a href="https://www.thingiverse.com/thing:323038">Charmander</a>, <a href="https://www.thingiverse.com/thing:319413">Squirtle</a>, and <a href="https://www.thingiverse.com/thing:376601">Pikachu</a></li>
+                    <li>Object STLs: <a href="https://www.thingiverse.com/thing:152642">Rose</a>, <a href="https://www.thingiverse.com/thing:3367195">Fire</a>, <a href="https://www.thingiverse.com/thing:600651">Squad Glasses</a></li>
+                    <li>Green, red, blue, and yellow PLAs</li>
+                    <li>3D printer</li>
+                    <li>Glue stick, super glue, hot glue</li>
+                    </ul>
+                <h4>How it was done:</h4>
+                    <ul>
+                    <li>Ordered relevant PLA colors</li>
+                    <li>Downloaded starter Pokemon STLs (Squirtle, Bulbasaur, Charmander) + Pikachu from Thingiverse</li>
+                    <li>Downloaded STLs of objects: Rose, Fire, and Squad Glasses </br>
+                        <ul>
+                        <li>I discovered on Thingiverse that someone had already crafted the famous Squirtle ‘Squad’ Glasses as a remix that fits with the existing Squirtle.</li>
+                        </br> </br>
+                        <img src="finalproject/pokemon/squadglasses.png" width=500></a>
+                        </br> </br>
+                        </ul>
+                    </li>
+                    <li>Rhino mesh editing, ensure scale and closed meshes -> export new STLs </br>
+                        <ul>
+                        <li>I combined the rose and the Bulbasaur by splitting off the current Bulbasaur plant and scaling, reducing the rose mesh, and unioning them together.</li>
+                        <li>[see also <a href="assignment5.html">assignment 5</a> for bulbasaur beginnings]</li>
+                        </br> </br>
+                        <img src="finalproject/pokemon/bulbasaurprogress.png" width=500></a>
+                        </br> </br>
+                        <li>I applied a similar approach to the fire on the Charmander. I had to be careful when aligning the fire on Charmander’s tail, as unioning them resulted in an open mesh. I reduced the mesh and combined further down on the tail to ensure a closed mesh.</li>
+                        </br> </br>
+                        <img src="finalproject/pokemon/charmanderprogress.png" width=500></a>
+                        </br> </br>
+                        <li>I decided to keep the squad glasses as a separate object worn by Squirtle rather than unioning them to its face. </li>
+                        <li>In addition, since I could not find a satisfactory lightning bolt/other object for Pikachu, I printed just a normal Pikachu.</li>
+                        </ul>
+                    </li>
+                    <li>Go to Cura and determine print settings.</br>
+                        <ul>
+                        <li>Needed tree supports and brim.</li>
+                        </ul>
+                    </li>
+                    <li>
+                    Loaded relevant PLA color and 3D printed! </br>
+                        </br> </br>
+                        <img src="finalproject/pokemon/bulbasaur.png" width=500></a>
+                        </br> </br>
+                        <img src="finalproject/pokemon/charmander.png" width=500></a>
+                        </br> </br>
+                        <img src="finalproject/pokemon/squirtle.png" width=500></a>
+                        </br> </br>
+                        <img src="finalproject/pokemon/pikachu.png" width=500></a>
+                        </br> </br>
+                        <ul>
+                        <li>Most issues occurred with Pikachu, but with a properly leveled 3D printer, a much cleaner bed, brim supports, and the help of my friend, they were able to be printed.</li>
+                        </br> </br>
+                        <img src="finalproject/pokemon/failedpikas.png" width=500></a>
+                        </br> </br>
+                        <li>In addition the squad glasses for Squirtle were weak in their design. I tried to reinforce the temples of the glasses with superglue, but it didn’t stick. So, I opted for the more noticeable hot glue.</li>
+                        </ul>
+                    </li>
+                    </ul>
+
+
+                <h3>Pokeball:</h3>
+                </br> </br>
+                <img src="finalproject/pokeball/finalball.png" width=500></a>
+                </br> </br>
+                <img src="finalproject/pokeball/finalballseparate.png" width=500></a>
+                </br> </br>
+                <h4>Methods:</h4>
+                    <ul>
+                    <li>Rhino modeling and mesh editing</li>
+                    <li>3D printing</li>
+                    <li>Mold design and casting</li>
+                    <li>Grasshopper</li>
+                    </ul>
+
+                <h4>BOM:</h4>
+                    <ul>
+                    <li>Pokeball STL</li>
+                    <li>Green PLA</li>
+                    <li>Oomoo 30</li>
+                    <li>Perfect Cast</li>
+                    <li>Sandpaper</li>
+                    <li>Mixing cups, gloves, popsicle sticks, paper clips, rubber bands, and funnel</li>
+                    <li>Red, white, and black paint, matte varnish and paint brushes</li>
+                    <li>3D printer and caliper</li>
+                    </ul>
+
+                <h4>How it was done:</h4>
+                    [see also <a href="assignment6.html">Assignment 6</a> and <a href="assignment7.html">7</a>]
+                    <ul>
+                    <li>Downloaded Pokeball STL from Thingiverse</br>
+                        <ul><li>I found a <a href="https://www.thingiverse.com/thing:1671448/files">pokeball</a> stl from Thingiverse and reduced the mesh down so it would be more manageable.</li></ul>
+                    </li>
+                    <li>Made a 2 part mold for mold in Rhino with direct modeling/mesh operations (ensured to design keys, sprue, and any needed vents)</br>
+                        <ul>
+                        <li>I was deciding on what the optimal way to cut the pokeball in half was. Along the indentation in the ball might be nice to hide the seam, but I was worried then the lip wouldn't fill out correctly since it was so small even if I put in extra vents. So, I decided to cut it the opposite direction and live with a potential seam with the sprue coming out of the front button of the pokeball. </li>
+                        </br> </br>
+                        <img src="finalproject/pokeball/pokeballrhino.png" width=500></a>
+                        </br> </br>
+                        <li>Jessica reminded me of Nadya's point in class that it can be hard to get the molds out and to build the walls separately, so that is what I did. I decided to start with a small scale test to see if my tolerances, measurements, and meshes were okay upon printing in a shorter amount of time. I printed a very small 4cm version of my pokeball mold.
+                        </li>
+                        </ul>
+                    </li>
+                    <li>3D print the mold for mold</br>
+                            <ul>
+                            <li>I scaled up my STL in Cura by 250%, which would me I would fit a pokeball about the size of my hand.
+                            </br>
+                            <img src="finalproject/pokeball/pokeballscaled.png" width=500></a>
+                            </br> </br> </li>
+                            <li>Luckily, right before I kicked off my 14 hour print, Noelle posted about her settings that printed faster. I changed my layer height to 0.4mm, which cut down the print time by about 4 hours!
+                            </br> </br>
+                            <img src="finalproject/pokeball/molds.png" width=500></a>
+                            </br> </br> </li>
+                            <li>Since the pokeball is symmetrical I am going to oomoo this mold twice since it takes just as long to print another one and oomoo I don't have to babysit :).</li>
+                            </ul>
+                    </li>
+                    <li>Used ‘oomoo’ to create the mold and cast with ‘Perfect Cast’/hydrostone within the ‘oomoo’ mold </br>
+                        <ul>
+                        <li>I decided to Oomoo both the small scale and the larger Pokeball. I bought mixing cups, popsicle sticks, funnels, paper clips, and rubber bands additionally for this assignment. </li>
+                        </br>
+                        <li>I had barely enough Oomoo :(! But I was able to have enough to create the molds. HOWEVER, it took sweat and tears (and luckily not blood), to get these molds out! Although I had detachable walls, the surface tension was very high. The small scale came out easily, but not so much with the large scale. I ended up using a cup to push the center out with my full body weight and hands on the edges. I have bruises on my hands and sore arms and took about 1 hour per Oomoo, so 2 hours total to get the molds separated from the 3D prints.
+                        </br> </br>
+                        <img src="finalproject/pokeball/oomoo.png" width=500></a>
+                        </br> </br> </li>
+                        <li>This next part I forgot to take pictures of since I was wearing lots of protective gear and doing it outside since I didn't want any casting material in the house nearby the kitties. First, I applied the recommended lubrication spray. Then, I mixed my Perfect Cast and used small plastic funnels placed in the sprue to pour it in. I accidentally overfilled both when trying to pour, I tapped the edges to ensure it settled down and wiped away the excess. I also barely had enough Perfect Cast! I waited 45 min to remove the casts from the molds. </li>
+                        </br>
+                        <li> The small scale removed just fine. The larger scale first half removed fine, but the second half the hole maker extension of the mold ripped off. If I had moved slower, I probably could've prevented this from ocurring. The hole at the bottom did turn out great though! </li>
+                        </br>
+                        <img src="finalproject/pokeball/pokeballhole.png" width=500></a>
+                        </br> </br>
+                        <li>However, there is a noticeable seam and defect at the top. These issues can be fixed with sanding and the final painting of the Pokeball to come next.</li>
+                        </ul>
+                    </li>
+                    <li>Sanded Pokeball and painted Pokeball</br>
+                        <ul>
+                        <li>I used a sandpaper/block to sand the seam down.</li>
+                        <li>I also 3D-printed small tubes to paint the center button black lines around to ensure a better circle since ridges were reduced in the sanding process.</li>
+                        </ul>
+                    </li>
+                    <li>Designed stand for Pokeball in Rhino with Grasshopper (fits in hole in bottom of Pokeball) and 3D printed Pokeball stand </br>
+                        <ul>
+                        <li>After measuring the hole and estimating the depth of hole with my caliper. I began designing the stand in Grasshopper. It was best to design this in Grasshopper in case I needed to easily adjust the dimensions based on the fit in the Pokeball.</li>
+                        <li>I designed a simple stand of two cylinders unioned together in Grasshopper</li>
+                        </br> </br>
+                        <img src="finalproject/pokeball/standrhino.png" width=500></a>
+                        </br> </br>
+                        <img src="finalproject/pokeball/standgh.png" width=500></a>
+                        </br> </br>
+                        </ul>
+                    </li>
+                    </ul>
+
+                <h3>Pokemon cards [stretch goal]:</h3>
+                </br> </br>
+                <img src="finalproject/pokecards/bulbasaurcard.png" width=500></a>
+                </br> </br>
+                <img src="finalproject/pokecards/charmandercard.png" width=500></a>
+                </br> </br>
+                <img src="finalproject/pokecards/squirtlecard.png" width=500></a>
+                </br> </br>
+                <img src="finalproject/pokecards/pikachucard.png" width=500></a>
+                </br> </br>
+
+                <h4>Methods:</h4>
+                <ul>
+                <li>Laser cutting</li>
+                <li>Incorporating stock parts</li>
+                </ul>
+                
+                <h4>BOM:</h4>
+                <ul>
+                <li>5x7 acrylic sheets</li>
+                <li>Pokemon vector art</li> 
+                <li>Stock part of LED lamp base</li>
+                <li>Batteries</li>
+                <li>Laser cutter</li>
+                </ul>
+
+                <h4>How it was done:</h4>
+                <ul>
+                <li>Ordered relevant materials: acrylic, LED lamp bases</br>
+                    <ul>
+                    <li>Originally I was thinking I would have to order LEDs separately and 3D print lamp stands/bases. However, I realized there were lamp bases with a slot for acrylic readily available and ordered those to be my stock part instead.</li>
+                    </br> </br>
+                    <img src="finalproject/pokecards/lampbase.png" width=500></a>
+                    </br> </br>
+                    </ul>
+                </li>
+                <li>Downloaded vectors of Pokemon cards for each Pokemon and edited in Illustrator.</br>
+                    <ul>
+                    <li>Since there were not complete vectors of Pokemon cards available, I decided to create them myself from the advice from Petrina using Illustrator.</li>
+                    <li>I bought Pokemon vector art off of <a href="https://www.etsy.com/listing/1252428063/pokemon-svg-pokemon-characters-pokemon">Etsy</a> and combined them with my own designs, using information on Pokemon attacks from existing Pokemon card information.</li>
+                    <li>Since I did not have the lamp bases yet, I went off of measurements from online documentation to cut the bottom lip to insert into the base. Each artboard in Illustrator was the size of my acrylic sheet.</li>
+                    </br> </br>
+                    <img src="finalproject/pokecards/cardsillustrator.png" width=500></a>
+                    </br> </br>
+                    </ul>
+                </li>
+                <li>Went to the MILL laser cut the acrylic sheets and raster the vectors of the Pokemon card information</br>
+                    <ul>
+                    <li>All lines needing to be cut were modified in Illustrator to be 0.01pt while raster vectors remained unmodified.</li>
+                    <li>I utilized the settings on the material sheet at the Mill for settings, using the 600DPI engrave settings and 3mm cutting settings based off the width of the acrylic.</li>
+                    </br> </br>
+                    <img src="finalproject/pokecards/lasersettings.png" width=500></a>
+                    </br> </br>
+                    <li>I used the 2 extra pieces of acrylic to test alignment in the laser cutter with the help of Jessica.</li>
+                    </br> </br>
+                    <img src="finalproject/pokecards/testlasercut.png" width=500></a>
+                    </br> </br>
+                    <img src="finalproject/pokecards/cutinprogress.png" width=500></a>
+                    </br> </br>
+                    </ul>
+                </li>
+                <li>Here are the final pieces:</br>
+                    <img src="finalproject/pokecards/cutcards.png" width=500></a>
+                    </br> </br>
+                    <ul>
+                    <li>Unfortunately the Bublasaur card got a few scratches from the laser cutter and I was out of extra pieces, but overall the cards look great with their Pokemon!</li>
+                    <li>I assembled each lamp by adding in batteries and changing the color of the LED to match the Pokemon color.</li>
+                    </ul>
+                </li>
+                </ul>
+        
+                </br> </br>
+                 <h3>Acknowledgements:</h3>
+                  Peer teachers: Jessica Douma for thinking of clear acryclic rather than wood for Pokemon cards, help with separate walls for molds, and assistance with laser cutting. Noelle for recommended slice settings for mold prints. And, Petrina for Illustrator advice for pokecards.
+                  </br> </br>
+                  Moral support: Jessica Douma
+                  </br> </br>
+                  Teaching support: TA Junchao and Prof Nadya
+                  </br> </br>
+                  Again the link to all documents if not wanting to scroll up :P : 
+                  <a href="https://github.com/etrowla/hcde533/tree/master/finalproposalfiles">Emily's 533 Github Final Proposal Files</a>
+                  </br> </br>
+            </p>
+        </div>
+    </body>
+</html>
